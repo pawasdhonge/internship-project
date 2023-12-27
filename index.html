@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pricing Landing Page</title>
+</head>
+<body>
+
+  <header>
+    <h1>Fictional Product/Service</h1>
+  </header>
+
+  <section id="pricing">
+    <div class="pricing-option">
+      <h2>Basic Plan</h2>
+      <p class="price">$19.99/month</p>
+      <ul>
+        <li>1) Limted access to the content</li>
+        <li>2) No downloaded content</li>
+        <!-- Add more features -->
+      </ul>
+      <button class="toggle">Select</button>
+    </div>
+    <section id="pricing">
+      <div class="pricing-option">
+        <h2>Advance Plan</h2>
+        <p class="price">$29.99/month</p>
+        <ul>
+          <li>1) Unlimted access to the content</li>
+          <li>2) Downloaded content available</li>
+          <!-- Add more features -->
+        </ul>
+        <button class="toggle">Select</button>
+      </div>
+      <section id="pricing">
+        <div class="pricing-option">
+          <h2>Premium Plan</h2>
+          <p class="price">$49.99/month</p>
+          <ul>
+            <li>1) Unlimted access to the content</li>
+            <li>2) Downloaded content available</li>
+            <li>3) Exclusive discount </li>
+            <li>4) No ads</li>
+            <!-- Add more features -->
+          </ul>
+          <button class="toggle">Select</button>
+        </div>
+
+    <!-- Add more pricing options as needed -->
+
+  </section>
+
+  <!-- Customization Options -->
+  <section id="customization">
+    <label for="currency-selector">Select Currency:</label>
+    <select id="currency-selector">
+      <option value="$">USD</option>
+      <option value="€">EUR</option>
+      <!-- Add more currency options as needed -->
+    </select>
+
+    <label for="unit-selector">Select Unit:</label>
+    <select id="unit-selector">
+      <option value="kg">Kilograms</option>
+      <option value="lb">Pounds</option>
+      <!-- Add more unit options as needed -->
+    </select>
+  </section>
+
+  <!-- Total Price Display -->
+  <section id="total">
+    <h2>Total Price:</h2>
+    <p id="total-price">$0.00</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
